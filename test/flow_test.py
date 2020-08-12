@@ -22,6 +22,7 @@ from utils.flow_reader import load_flow, load_boundary
 from utils.experiment_manager import make_checkpoint_path
 
 import matplotlib.pyplot as plt
+%matplotlib inline
 
 FLAGS = tf.app.flags.FLAGS
 
